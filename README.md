@@ -49,10 +49,8 @@ Each module contains theory, examples, and exercises to help you develop intuiti
 Data-Analysis-with-Python/
 │
 ├── 1- Intro to Numpy/
-│   ├── 1. Introduction to Data Science.ipynb
-│   ├── 2. NumPy.ipynb
-│   ├── 3. NumPy exercises.ipynb
-│   └── README.md
+│   ├── 1. NumPy.ipynb
+│   └── 2. NumPy exercises.ipynb
 │
 ├── 2- Intro to Pandas/
 │   ├── Pandas Basics.ipynb
