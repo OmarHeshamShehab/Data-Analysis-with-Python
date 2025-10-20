@@ -25,7 +25,6 @@
 - [Skills You’ll Gain](#-skills-youll-gain)
 - [Future Improvements](#-future-improvements)
 - [Contributing](#-contributing)
-- [License](#-license)
 - [Author](#-author)
 
 ---
@@ -113,19 +112,13 @@ cd Data-Analysis-with-Python
 
 ### Step 2: Create a virtual environment
 ```bash
-python -m venv venv
-source venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate      # For Windows
+conda create --name myenv python=3.11
+conda activate myenv
 ```
 
 ### Step 3: Install dependencies
-If you have a `requirements.txt` file:
 ```bash
-pip install -r requirements.txt
-```
-Otherwise, manually install:
-```bash
-pip install numpy pandas matplotlib jupyter seaborn
+conda env create --file environment.yml --name newenv
 ```
 
 ---
@@ -204,12 +197,8 @@ If you’d like to improve examples, fix bugs, or add new lessons:
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
 ---
 
 ## 👤 Author
 **Omar Shehab**  
-📧 Email: [omar.shehab@example.com](mailto:omar.shehab@example.com)  
-💼 GitHub: [github.com/OmarShehab](https://github.com/OmarShehab)
+💼 GitHub: [github.com/OmarHeshamShehab](https://github.com/OmarHeshamShehab)
